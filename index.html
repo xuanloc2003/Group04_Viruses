@@ -1,0 +1,1815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VertexSystems</title>
+    <link rel="stylesheet" href="./css/app.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swapfamily=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Wow animte -->
+    <link rel="stylesheet" href="./css/animate.min.css" />
+
+    <!-- BS4 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- OWL.css -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <header>
+      <nav class="myNavBar navbar navbar-expand-lg navbar-light">
+        <div class="d-md-none col-sm-2 col-3">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="col-xl-7 col-lg-9 col-md-8 col-sm-8 col-6 myNavBar__col">
+          <div class="myNavBar__left">
+            <a class="navbar-brand" href="#">
+              <img
+                style="width: 60px; height: 60px; object-fit: cover"
+                src="./img/logo.jpg"
+                alt=""
+              />
+            </a>
+            <div class="myNavBar__categories">
+              <i class="fa fa-th"></i>
+              <span>Categories</span>
+            </div>
+            <form class="myNavBar__form-search">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for Virus"
+                  id="search"
+                />
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2">
+                    <i class="fa fa-search"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="form__result">
+                
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-3 col-md-4 col-sm-2 col-3 myNavBar--reset">
+          <div class="myNavBar__right">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#courses"> About the virus </a>
+                <div class="overlay">
+                  <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, beatae.
+                  </p>
+                  <a href="#">Try VertexSystems For Business</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Try project virus</a>
+                <div class="overlay">
+                  <p>
+                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, obcaecati!
+                  </p>
+                  <a href="#">Try VertexSystems For Business</a>
+                </div>
+              </li>
+              <li class="nav-item myNavBar__cart">
+                <a class="nav-link" href="#"><i class="fa fa-info"></i></a>
+              </li>
+              <li class="nav-item myNavBar__button">
+                <button
+                  class="button button--white"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Login
+                </button>
+                <button
+                  class="button button--red"
+                  data-toggle="modal"
+                  data-target="#elegantModalForm"
+                >
+                  Sign up
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+      </nav>
+      <div class="navbar-bottom">
+        <div class="navbar-content">
+          <div class="navbar-logo">Vertex<span>Systems.</span></div>
+          <ul class="nav-menu">
+            <li class="active line"><a href="#">Home</a></li>
+            <li class="line">
+              <a href="#">List of virus</a>
+              <i class="fa fa-angle-down"></i>
+              <ul class="dropdown">
+                <li><a href="./SARS-CoV-1/Sars-cov-1.html" target="blank">SARS-CoV</a></li>
+                <li><a href="./HIV/hiv.html" target="blank">HIV</a></li>
+                <li><a href="./Ebola/Ebola.html" target="blank">Ebola</a></li>
+                <li><a href="./Marbug/marburg.html" target="blank">Marburg</a></li>
+                <li><a href="./HANTA/Hanta.html" target="blank">Hanta</a></li>
+                <li><a href="./SARS-CoV-2/SARS-CoV-2.html" target="blank">SAR-COV-2</a></li>
+              </ul>
+            </li>
+            <li class="line"><a href="./Yearwiselisting.html" target="blank">YearWise Listing</a></li>
+            <li class="line"><a href="./ContactUs/ContactUs_project.html" target="blank">Contact Us</a></li>
+          </ul>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="new">
+      <div class="new-maxwidth">
+        <div class="new-header-title">
+          <h2 class="new__title">News Update</h2>
+        </div>
+        <div class="new-content">
+          <div class="left-content">
+            <div class="new-left">
+              <div class="new-leftContent">
+                <h3 class="new-title">Viet Nam</h3>
+                <div class="newleft-center">
+                  <div class="newleft-items">
+                    <div class="items-center">
+                      <div class="items-father">
+                        <div class="items-child">
+                          <div class="items-title">Total cases</div>
+                          <div class="items-canhiem">22.297.427</div>
+                          <div class="items-plus">
+                            Recorded cases on yesterday <strong>+19.171</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father1">
+                        <div class="items-child">
+                          <div class="items-title">
+                            New cases (14 days)
+                          </div>
+                          <div class="items-chart">
+                            <div class="item-img">
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/NC14/_m_015fr.svg"
+                                class="item-img1"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                                aria-label="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/NC14/_m_015fr_dark.svg"
+                                class="item-img2"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                                aria-label="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                            </div>
+                          </div>
+                          <div class="items-plus">
+                            22nd December 2021 - 4th January 2022:<strong>+104.309</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father2">
+                        <div class="items-child">
+                          <div class="items-title">Death cases</div>
+                          <div class="items-canhiem">619.645</div>
+                          <div class="items-plus">
+                            Recorded cases on yesterday <strong>+181</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newleft-border"></div>
+                  <div class="newleft-items">
+                    <div class="items-center">
+                      <div class="items-father">
+                        <div class="items-child">
+                          <div class="items-title">
+                            Total statistics recorded
+                          </div>
+                          <div class="items-canhiem">332.902.332</div>
+                          <div class="items-plus">
+                            Recorded cases on yesterday
+                            <strong>+826.514</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father1">
+                        <div class="items-child">
+                          <div class="items-title">Total cases</div>
+                          <div class="items-chart">
+                            <div class="item-img">
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/ND14/_m_015fr.svg"
+                                class="item-img1"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                                aria-label="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/ND14/_m_015fr_dark.svg"
+                                class="item-img2"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                                aria-label="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                            </div>
+                          </div>
+                          <div class="items-plus">
+                            22nd December 2021 - 4th January 2022:<strong>+6.567.767</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father2">
+                        <div class="items-child">
+                          <div class="items-title">
+                            Number of people injected full dose
+                          </div>
+                          <div class="items-canhiem">143.762.375</div>
+                          <div class="items-plus">
+                            % Population:<strong>+68%</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newleft-text">
+                    <div class="text1">
+                      "Total dose delivered" is the number of doses of vaccine administered
+                      for everyone. Because some vaccines require multiple doses
+                      should be the number of vaccinations may be lower. "So
+                      people injecting full dose "is the number of people injecting full dose of vaccine
+                      COVID-19.
+                    </div>
+                    <div class="update">Updated 38 minutes ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="new-left">
+              <div class="new-leftContent">
+                <h3 class="new-title">All over the world</h3>
+                <div class="newleft-center">
+                  <div class="newleft-items">
+                    <div class="items-center">
+                      <div class="items-father">
+                        <div class="items-child">
+                          <div class="items-title">Total cases</div>
+                          <div class="items-canhiem">295.218.167</div>
+                          <div class="items-plus">
+                            Recorded cases on yesterday
+                            <strong>+2.594.868</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father1">
+                        <div class="items-child">
+                          <div class="items-title">
+                            New cases (14 days)
+                          </div>
+                          <div class="items-chart">
+                            <div class="item-img">
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/NC14/_m_02j71.svg"
+                                class="item-img1"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/NC14/_m_02j71_dark.svg"
+                                class="item-img2"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                            </div>
+                          </div>
+                          <div class="items-plus">
+                            22nd December 2021 - 4th January 2022:<strong>+18.923.417</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father2">
+                        <div class="items-child">
+                          <div class="items-title">Death cases</div>
+                          <div class="items-canhiem">5.457.474</div>
+                          <div class="items-plus">
+                            Recorded cases on yesterday <strong>+7.890</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newleft-border"></div>
+                  <div class="newleft-items">
+                    <div class="items-center">
+                      <div class="items-father">
+                        <div class="items-child">
+                          <div class="items-title">
+                            Total statistics recorded
+                          </div>
+                          <div class="items-canhiem">9.212.972.886</div>
+                        </div>
+                      </div>
+                      <div class="items-father1">
+                        <div class="items-child">
+                          <div class="items-title">Total cases</div>
+                          <div class="items-chart">
+                            <div class="item-img">
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/ND14/_m_02j71.svg"
+                                class="item-img1"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                                aria-label="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                              <img
+                                src="//www.gstatic.com/covid-trends/images/ND14/_m_02j71_dark.svg"
+                                class="item-img2"
+                                loading="lazy"
+                                alt="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                                aria-label="Biểu đồ xu hướng lây nhiễm trong 14 ngày"
+                              />
+                            </div>
+                          </div>
+                          <div class="items-plus">
+                            22nd December 2021 - 4th January 2022:<strong>+451.033.580</strong>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="items-father2">
+                        <div class="items-child">
+                          <div class="items-title">
+                            Number of people injected full dose
+                          </div>
+                          <div class="items-canhiem">3.882.369.039</div>
+                          <div class="items-plus">
+                            % Population:<strong>49,9%</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="newleft-text">
+                    <div class="text1">
+                      "Total dose delivered" is the number of doses of vaccine administered
+                      for everyone. Because some vaccines require multiple doses
+                      should be the number of vaccinations may be lower. "So
+                      people injecting full dose "is the number of people injecting full dose of vaccine
+                      COVID-19.
+                    </div>
+                    <div class="update">Updated 38 minutes ago</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="left-map">
+              <img
+                src="./img/network-image.png"
+                width="700px"
+                height="300px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="news">
+            <h3 class="news__title">News</h3>
+            <div class="news__content">
+              <div class="news__item">
+                <div class="news__text">
+                  <div class="news__top">
+                    <img
+                      class="tvs3Id tvs3Id lqNvvd lITmO WfKKme"
+                      jsname="mgY0Ed"
+                      srcset="
+                        https://encrypted-tbn1.gstatic.com/faviconV2?url=https://baodantoc.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 1x,
+                        https://encrypted-tbn1.gstatic.com/faviconV2?url=https://baodantoc.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 2x
+                      "
+                      aria-label="Hình ảnh - Báo dân tộc"
+                      alt="Báo dân tộc"
+                      src="https://encrypted-tbn1.gstatic.com/faviconV2?url=https://baodantoc.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL"
+                      loading="lazy"
+                    />
+                    <span class="news__domain">Báo dân tộc</span>
+                  </div>
+                  <a
+                    href="https://baodantoc.vn/chau-au-tiep-tuc-la-tam-dich-covid-19-tren-toan-the-gioi-1641260938291.htm"
+                    target="blank"
+                    class="news__desc"
+                    >Châu Âu tiếp tục là tâm dịch COVID-19 trên toàn thế giới</a
+                  >
+                  <div class="news__date">
+                    <span>6 hours ago</span>
+                    <div class="news__icon">
+                      <i class="fa fa-file-download"></i>
+                      <i class="fa fa-share-square"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__img">
+                  <img src="./img/new1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="news__item">
+                <div class="news__text">
+                  <div class="news__top">
+                    <img
+                      class="tvs3Id tvs3Id lqNvvd lITmO WfKKme"
+                      jsname="mgY0Ed"
+                      srcset="
+                        https://encrypted-tbn1.gstatic.com/faviconV2?url=https://m.vietnamnet.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 1x,
+                        https://encrypted-tbn1.gstatic.com/faviconV2?url=https://m.vietnamnet.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 2x
+                      "
+                      aria-label="Hình ảnh - Vietnamnet.vn"
+                      alt="Vietnamnet.vn"
+                      src="https://encrypted-tbn1.gstatic.com/faviconV2?url=https://m.vietnamnet.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL"
+                      loading="lazy"
+                    />
+                    <span class="news__domain">Vienamnet.vn</span>
+                  </div>
+                  <a
+                    href="https://vietnamnet.vn/vn/the-gioi/tong-thong-brazil-nhap-vien-khan-cap-806237.html"
+                    target="blank"
+                    class="news__desc"
+                    >Tổng thống brazil nhập viên khẩn cấp</a
+                  >
+                  <div class="news__date">
+                    <span>6 hours ago</span>
+                    <div class="news__icon">
+                      <i class="fa fa-file-download"></i>
+                      <i class="fa fa-share-square"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__img">
+                  <img src="./img/new2.jpg" alt="" />
+                </div>
+              </div>
+              <div class="news__item">
+                <div class="news__text">
+                  <div class="news__top">
+                    <img
+                      src="https://media.istockphoto.com/photos/one-like-social-media-notification-with-thumb-up-icon-picture-id1200899039?b=1&k=20&m=1200899039&s=170667a&w=0&h=jQyY2C1cisNR8WVSxF94DjxSQufs6L3QdWK48eDgpFA="
+                      alt=""
+                    />
+                    <span class="news__domain">Tuổi trẻ Online</span>
+                  </div>
+                  <a
+                    href="https://ngoisao.net/ronaldo-nhiem-covid-19-4411793.html"
+                    target="blank"
+                    class="news__desc"
+                    >Ronaldo Nhiễm covid-19</a
+                  >
+                  <div class="news__date">
+                    <span>6 hours ago</span>
+                    <div class="news__icon">
+                      <i class="fa fa-file-download"></i>
+                      <i class="fa fa-share-square"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__img">
+                  <img src="./img/new3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="news__item">
+                <div class="news__text">
+                  <div class="news__top">
+                    <img
+                      class="tvs3Id tvs3Id lqNvvd lITmO WfKKme"
+                      jsname="mgY0Ed"
+                      srcset="
+                        https://encrypted-tbn3.gstatic.com/faviconV2?url=https://vtv.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 1x,
+                        https://encrypted-tbn3.gstatic.com/faviconV2?url=https://vtv.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 2x
+                      "
+                      aria-label="Hình ảnh - Báo điện tử VTV News - Đài Truyền Hình Việt Nam"
+                      alt="Báo điện tử VTV News - Đài Truyền Hình Việt Nam"
+                      target="blank"
+                      src="https://encrypted-tbn3.gstatic.com/faviconV2?url=https://vtv.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL"
+                      loading="lazy"
+                    />
+                    <span class="news__domain">Báo điện tử VTV News</span>
+                  </div>
+                  <a
+                    href="https://vtv.vn/the-gioi/phat-hien-o-dich-covid-19-tren-du-thuyen-cua-duc-2022010319581691.htm"
+                    class="news__desc"
+                    >Phát hiện ổ dịch COVID-19 trên du thuyền của Đức</a
+                  >
+                  <div class="news__date">
+                    <span>6 hours ago</span>
+                    <div class="news__icon">
+                      <i class="fa fa-file-download"></i>
+                      <i class="fa fa-share-square"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__img">
+                  <img src="./img/new4.jpg" alt="" />
+                </div>
+              </div>
+              <div class="news__item">
+                <div class="news__text">
+                  <div class="news__top">
+                    <img
+                      class="tvs3Id tvs3Id lqNvvd lITmO WfKKme"
+                      jsname="mgY0Ed"
+                      srcset="
+                        https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.nguoiduatin.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 1x,
+                        https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.nguoiduatin.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 2x
+                      "
+                      aria-label="Hình ảnh - Người đưa tin"
+                      alt="Người đưa tin"
+                      src="https://encrypted-tbn3.gstatic.com/faviconV2?url=https://m.nguoiduatin.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL"
+                      loading="lazy"
+                    />
+                    <span class="news__domain">Người đưa tin</span>
+                  </div>
+                  <a
+                    href="https://www.nguoiduatin.vn/an-do-lan-song-covid-19-moi-lay-lan-voi-toc-do-chong-mat-a538940.html"
+                    target="blank"
+                    class="news__desc"
+                    >Ấn Độ: Làn sóng Covid-19 mới lây lan với tốc độ chóng
+                    mặt</a
+                  >
+                  <div class="news__date">
+                    <span>6 hours ago</span>
+                    <div class="news__icon">
+                      <i class="fa fa-file-download"></i>
+                      <i class="fa fa-share-square"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__img">
+                  <img src="./img/news5.jpg" alt="" />
+                </div>
+              </div>
+              <div class="news__item">
+                <div class="news__text">
+                  <div class="news__top">
+                    <img
+                      class="tvs3Id tvs3Id lqNvvd lITmO WfKKme"
+                      jsname="mgY0Ed"
+                      srcset="
+                        https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.vietnamplus.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 1x,
+                        https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.vietnamplus.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL 2x
+                      "
+                      aria-label="Hình ảnh - Vietnam Plus"
+                      alt="Vietnam Plus"
+                      src="https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.vietnamplus.vn&amp;client=NEWS_360&amp;size=96&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL"
+                      loading="lazy"
+                    />
+                    <span class="news__domain">Vietnam Plus</span>
+                  </div>
+                  <a
+                    href="https://www.vietnamplus.vn/so-ca-mac-gia-tang-chong-mat-cac-nuoc-day-manh-tiem-mui-tang-cuong/766505.vnp"
+                    target="blank"
+                    class="news__desc"
+                    >Số ca mắc gia tăng "chóng mặt", các nước đẩy mạnh tiêm mũi
+                    tăng cường</a
+                  >
+                  <div class="news__date">
+                    <span>6 hours ago</span>
+                    <div class="news__icon">
+                      <i class="fa fa-file-download"></i>
+                      <i class="fa fa-share-square"></i>
+                      <i class="fa fa-ellipsis-v"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__img">
+                  <img src="./img/new6.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carousell -->
+    <section class="courses" id="courses">
+      <div class="courses__content">
+        <div class="course-title">
+          <h2>The popular viruses</h2>
+        </div>
+        <div class="row">
+          <div class="col-4 courses__left">
+            <div>
+              <h2>The most dangerous viruses in the world</h2>
+              <p>
+                Choose from a source of more than 100000 words online with new
+                information updated daily
+              </p>
+            </div>
+          </div>
+          <div class="col-8">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="dev-tab"
+                  data-toggle="tab"
+                  href="#dev"
+                  role="tab"
+                  >Development</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="sars1-tab"
+                  data-toggle="tab"
+                  href="#sars1"
+                  role="tab"
+                  >SARS-CoV</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="ebola-tab"
+                  data-toggle="tab"
+                  href="#ebola"
+                  role="tab"
+                  >Ebola</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="hiv-tab"
+                  data-toggle="tab"
+                  href="#hiv"
+                  role="tab"
+                  >HIV</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="marburg-tab"
+                  data-toggle="tab"
+                  href="#margburg"
+                  role="tab"
+                  >Marburg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="hanta-tab"
+                  data-toggle="tab"
+                  href="#hanta"
+                  role="tab"
+                  >Hanta</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="sars2-tab"
+                  data-toggle="tab"
+                  href="#sars2"
+                  role="tab"
+                  >SARS-CoV-2</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="dev" role="tabpanel">
+                <div class="owl-carousel owl-theme courses__carousel">
+                  <div class="card virus">
+                    <img
+                      src="./img/virus1.jpg"
+                      class="card-img-top"
+                      alt="kh1"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Severe acute respiratory syndrome (SARS) is a viral
+                        respiratory disease...
+                      </h5>
+                      <p class="card-text">Dangerous level</p>
+                      <div class="card__star">
+                        <span>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="card__rate">5.0</span>
+                        <span class="card__total">(WHO)</span>
+                      </div>
+                      <div class="card__price">
+                        <span>CHINA</span>
+                        <span>2019</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card virus">
+                    <img
+                      src="./img/virus2.jpg"
+                      class="card-img-top"
+                      alt="kh2"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Ebola, also known as Ebola virus disease (EVD) and
+                        Ebola...
+                      </h5>
+                      <p class="card-text">Dangerous level</p>
+                      <div class="card__star">
+                        <span>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="card__rate">5.0</span>
+                        <span class="card__total">(WHO))</span>
+                      </div>
+                      <div class="card__price">
+                        <span>Congo</span>
+                        <span>2013</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card virus">
+                    <img
+                      src="./img/virus3.jpg"
+                      class="card-img-top"
+                      alt="kh3"
+                      card
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        The human immunodeficiency viruses (HIV)...
+                      </h5>
+                      <p class="card-text">Dangerous level</p>
+                      <div class="card__star">
+                        <span>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="card__rate">5.0</span>
+                        <span class="card__total">(WHO)</span>
+                      </div>
+                      <div class="card__price">
+                        <span>Kinshasa</span>
+                        <span>1920</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card virus">
+                    <img
+                      src="./img/virus4.jpg"
+                      class="card-img-top"
+                      alt="kh4"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Marburg virus[1] is a hemorrhagic fever virus of the
+                        Filoviridae family...
+                      </h5>
+                      <p class="card-text">Dangerous level</p>
+                      <div class="card__star">
+                        <span>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="card__rate">5.0</span>
+                        <span class="card__total">(WHO)</span>
+                      </div>
+                      <div class="card__price">
+                        <span>Congo</span>
+                        <span>1967</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card virus">
+                    <img
+                      src="./img/virus5.jpg"
+                      class="card-img-top"
+                      alt="kh5"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Orthohantavirus is a genus of single-stranded...
+                      </h5>
+                      <p class="card-text">Dangerous level</p>
+                      <div class="card__star">
+                        <span>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="card__rate">5.0</span>
+                        <span class="card__total">(WHO)</span>
+                      </div>
+                      <div class="card__price">
+                        <span>Korea</span>
+                        <span>1951</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card virus">
+                    <img
+                      src="./img/virus6.jpg"
+                      class="card-img-top"
+                      alt="kh6"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Severe acute respiratory syndrome coronavirus 2
+                        (SARS-CoV-2) ...
+                      </h5>
+                      <p class="card-text">Dangerous level</p>
+                      <div class="card__star">
+                        <span>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                          <i class="fa fa-exclamation-triangle"></i>
+                        </span>
+                        <span class="card__rate">5.0</span>
+                        <span class="card__total">(WHO)</span>
+                      </div>
+                      <div class="card__price">
+                        <span>China</span>
+                        <span>2019</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade virus-item item1"
+                id="sars1"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <div class="about-content">
+                  <!-- <div class="colum-left">
+                    <img src="./img/virus1.jpg" alt="">
+                  </div> -->
+                  <div class="colum right">
+                    <div class="text">
+                      The SARS-CoV virus <span class="typing1"></span>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quod eaque nam sed laborum, fugit, harum pariatur soluta
+                      animi velit reiciendis earum voluptates nobis. Mollitia
+                      laborum ullam ipsa vitae dicta, ipsam molestiae quidem
+                      beatae suscipit numquam hic aspernatur ipsum impedit
+                      nesciunt earum temporibus laboriosam corporis, sed ut vel
+                      eius ratione! Sequi maiores illo dolorem tenetur! Labore
+                      minima totam reiciendis veniam dolor?
+                    </p>
+                    <a href="./SARS-CoV-1/Sars-cov-1.html" target="blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade virus-item item2"
+                id="ebola"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="about-content">
+                  <!-- <div class="colum-left">
+                    <img src="./img/virus1.jpg" alt="">
+                  </div> -->
+                  <div class="colum right">
+                    <div class="text">
+                      The Ebola virus <span class="typing1"></span>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quod eaque nam sed laborum, fugit, harum pariatur soluta
+                      animi velit reiciendis earum voluptates nobis. Mollitia
+                      laborum ullam ipsa vitae dicta, ipsam molestiae quidem
+                      beatae suscipit numquam hic aspernatur ipsum impedit
+                      nesciunt earum temporibus laboriosam corporis, sed ut vel
+                      eius ratione! Sequi maiores illo dolorem tenetur! Labore
+                      minima totam reiciendis veniam dolor?
+                    </p>
+                    <a href="./Ebola/Ebola.html" target="blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade virus-item item3"
+                id="hiv"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="about-content">
+                  <!-- <div class="colum-left">
+                    <img src="./img/virus1.jpg" alt="">
+                  </div> -->
+                  <div class="colum right">
+                    <div class="text">
+                      The HIV virus <span class="typing1"></span>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quod eaque nam sed laborum, fugit, harum pariatur soluta
+                      animi velit reiciendis earum voluptates nobis. Mollitia
+                      laborum ullam ipsa vitae dicta, ipsam molestiae quidem
+                      beatae suscipit numquam hic aspernatur ipsum impedit
+                      nesciunt earum temporibus laboriosam corporis, sed ut vel
+                      eius ratione! Sequi maiores illo dolorem tenetur! Labore
+                      minima totam reiciendis veniam dolor?
+                    </p>
+                    <a href="./HIV/hiv.html" target="blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade virus-item item4"
+                id="margburg"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="about-content">
+                  <!-- <div class="colum-left">
+                    <img src="./img/virus1.jpg" alt="">
+                  </div> -->
+                  <div class="colum right">
+                    <div class="text">
+                      The MargBurg virus <span class="typing1"></span>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quod eaque nam sed laborum, fugit, harum pariatur soluta
+                      animi velit reiciendis earum voluptates nobis. Mollitia
+                      laborum ullam ipsa vitae dicta, ipsam molestiae quidem
+                      beatae suscipit numquam hic aspernatur ipsum impedit
+                      nesciunt earum temporibus laboriosam corporis, sed ut vel
+                      eius ratione! Sequi maiores illo dolorem tenetur! Labore
+                      minima totam reiciendis veniam dolor?
+                    </p>
+                    <a href="./Marbug/marburg.html" target="blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade virus-item item5"
+                id="hanta"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="about-content">
+                  <!-- <div class="colum-left">
+                    <img src="./img/virus1.jpg" alt="">
+                  </div> -->
+                  <div class="colum right">
+                    <div class="text">
+                      The Hanta virus <span class="typing1"></span>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quod eaque nam sed laborum, fugit, harum pariatur soluta
+                      animi velit reiciendis earum voluptates nobis. Mollitia
+                      laborum ullam ipsa vitae dicta, ipsam molestiae quidem
+                      beatae suscipit numquam hic aspernatur ipsum impedit
+                      nesciunt earum temporibus laboriosam corporis, sed ut vel
+                      eius ratione! Sequi maiores illo dolorem tenetur! Labore
+                      minima totam reiciendis veniam dolor?
+                    </p>
+                    <a href="./HANTA/Hanta.html" target="blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade virus-item item6"
+                id="sars2"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="about-content">
+                  <!-- <div class="colum-left">
+                    <img src="./img/virus1.jpg" alt="">
+                  </div> -->
+                  <div class="colum right">
+                    <div class="text">
+                      The SAR-COV-2 virus <span class="typing1"></span>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quod eaque nam sed laborum, fugit, harum pariatur soluta
+                      animi velit reiciendis earum voluptates nobis. Mollitia
+                      laborum ullam ipsa vitae dicta, ipsam molestiae quidem
+                      beatae suscipit numquam hic aspernatur ipsum impedit
+                      nesciunt earum temporibus laboriosam corporis, sed ut vel
+                      eius ratione! Sequi maiores illo dolorem tenetur! Labore
+                      minima totam reiciendis veniam dolor?
+                    </p>
+                    <a href="./SARS-CoV-2/SARS-CoV-2.html" tabindex="blank">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+    <section class="teams" id="teams">
+      <div class="max-width">
+        <h2 class="title">About Us</h2>
+        <h3 class="child-title">Activities</h3>
+        <div class="carousel owl-carousel carousel-teams">
+          <div class="card">
+            <div class="box">
+              <img src="./img/about1.jpg" alt="" />
+              <div class="text">News</div>
+              <p>Information is accurately and constantly updated</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="./img/about2.jpg" alt="" />
+              <div class="text">Reporters</div>
+              <p>
+                Reporters are always present in hot spots to update the latest
+                news
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="./img/About3.jpg" alt="" />
+              <div class="text">Staff</div>
+              <p>The staff is large and experienced in filtering news</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="./img/about4.jpg" alt="" />
+              <div class="text">Branch</div>
+              <p>
+                We have branches all over the world with headquarters in Chicago
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <img src="./img/about5.jpg" alt="" />
+              <div class="text">Charity</div>
+              <p>
+                Organizing charity activities regularly to support people in
+                epidemic areas
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="child-title member-title">Developer Team</h3>
+        <div class="member-content">
+          <div class="member-item">
+            <img src="./img/member1.jpg" alt="" width="255px" height="383px"/>
+            <div class="member-info">
+              <h2>Xuan Loc</h2>
+              <p>Moscow,Russia</p>
+              <div class="member-socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fa fa-rss"></i>
+              </div>
+            </div>
+          </div>
+          <div class="member-item">
+            <img src="./img/t2.jpg" alt="" />
+            <div class="member-info">
+              <h2>Tien Hung</h2>
+              <p>London,England.</p>
+              <div class="member-socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fa fa-rss"></i>
+              </div>
+            </div>
+          </div>
+          <div class="member-item">
+            <img src="./img/t3.jpg" alt="" />
+            <div class="member-info">
+              <h2>Thanh Phong</h2>
+              <p>Chicago,USA</p>
+              <div class="member-socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fa fa-rss"></i>
+              </div>
+            </div>
+          </div>
+          <div class="member-item">
+            <img src="./img/t4.jpg" alt="" />
+            <div class="member-info">
+              <h2>Hai Dang</h2>
+              <p>Amsterdam,Netherlands</p>
+              <div class="member-socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fa fa-rss"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio">
+      <div class="container">
+        <div class="portfolio-title">
+          <h2>Gallery</h2>
+        </div>
+        <div class="portfolio-list">
+          <div class="portfolio-colum">
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img src="./img/active1.jpeg" alt="" />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img src="./img/active2.jpeg" alt="" />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img src="./img/active3.jpeg" alt="" />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+          </div>
+          <div class="portfolio-colum">
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img
+                  style="width: 330px; height: 300px"
+                  src="./img/active4.jpeg"
+                  alt=""
+                />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img
+                  style="width: 330px; height: 300px"
+                  src="./img/active5.jpeg"
+                  alt=""
+                />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img
+                  style="width: 330px; height: 300px"
+                  src="./img/active6.jpeg"
+                  alt=""
+                />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div class="portfolio-item">
+              <a href="#" class="portfolio-image">
+                <img
+                  style="width: 330px; height: 300px"
+                  src="./img/active7.jpeg"
+                  alt=""
+                />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+          </div>
+          <div class="portfolio-colum">
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img src="./img/active8.jpeg" alt="" />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img src="./img/active9.jpeg" alt="" />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+            <div
+              class="portfolio-item wow animate__animated animate__fadeInUp animate__fast"
+            >
+              <a href="#" class="portfolio-image">
+                <img src="./img/active10.jpeg" alt="" />
+              </a>
+              <h3>
+                <a href="" class="portfolio-title">
+                  Lorem ipsum dolor sit amet.
+                </a>
+              </h3>
+              <a href="#" class="portfolio-text"> Lorem, ipsum. </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="portfolio-link"  data-toggle="modal"
+        data-target="#elegantModalForm"> Get Started </a>
+      </div>
+    </section>
+    <!-- Modal Login -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="login-content">
+              <div class="login-icon"><i class="far fa-user"></i></div>
+              <h2 class="login-title">Have an account?</h2>
+              <div class="login-form">
+                <input id="login" type="text" placeholder="Username" />
+                <input id="password" type="text" placeholder="Password" />
+              </div>
+              <div class="login-bottom">
+                <div><input type="checkbox" name="" id="" />Remember Me</div>
+                <p>Forgot Password</p>
+              </div>
+              <button id="btn" class="login-submit" data-dismiss="modal">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal signup -->
+    <!-- Modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="elegantModalForm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content form-elegant">
+          <!--Header-->
+          <div class="modal-header text-center">
+            <h3
+              class="modal-title w-100 dark-grey-text font-weight-bold my-3"
+              id="myModalLabel"
+            >
+              <strong>Sign in</strong>
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!--Body-->
+          <div class="modal-body mx-4">
+            <!--Body-->
+            <div class="md-form mb-5">
+              <input
+                type="email"
+                id="Username"
+                name="Ten Dang Nhap"
+                class="form-control validate"
+              />
+              <label data-error="wrong" data-success="right" for="Username"
+                >Your Username</label
+              >
+              <span id="error_username" class="helper-text text-danger"></span>
+            </div>
+
+            <div class="md-form pb-3">
+              <input
+                type="password"
+                id="password-signup"
+                name="Mat Khau"
+                class="form-control validate"
+                minlength="6"
+                maxlength="32"
+              />
+              <label
+                data-error="wrong"
+                data-success="right"
+                for="password-signup"
+                >Your password</label
+              >
+              <span id="error_password" class="helper-text text-danger"></span>
+              <span
+                id="error_password_min_max_length"
+                class="helper-text text-danger"
+              ></span>
+              <p class="font-small blue-text d-flex justify-content-end">
+                Have an <a href="#" class="blue-text ml-1"> Account?</a>
+              </p>
+            </div>
+
+            <div class="text-center mb-3">
+              <button
+                type="submit"
+                id="btnDangKy"
+                class="btn blue-gradient btn-block btn-rounded z-depth-1a"
+              >
+                Sign in
+              </button>
+            </div>
+            <p
+              class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"
+            >
+              or Sign in with:
+            </p>
+
+            <div class="row my-3 d-flex justify-content-center">
+              <!--Facebook-->
+              <button
+                type="button"
+                class="btn btn-white btn-rounded mr-md-3 z-depth-1a"
+              >
+                <i class="fab fa-facebook-f text-center"></i>
+              </button>
+              <!--Twitter-->
+              <button
+                type="button"
+                class="btn btn-white btn-rounded mr-md-3 z-depth-1a"
+              >
+                <i class="fab fa-twitter"></i>
+              </button>
+              <!--Google +-->
+              <button
+                type="button"
+                class="btn btn-white btn-rounded z-depth-1a"
+              >
+                <i class="fab fa-google-plus-g"></i>
+              </button>
+            </div>
+          </div>
+          <!--Footer-->
+          <div class="modal-footer mx-5 pt-3 mb-1">
+            <p class="font-small grey-text d-flex justify-content-end">
+              Have an account ? <a href="#" class="blue-text ml-1"> Login</a>
+            </p>
+          </div>
+        </div>
+        <!--/.Content-->
+      </div>
+    </div>
+    <!-- FEEDBACKS -->
+    <section class="customer">
+      <div class="container">
+        <div class="boxed">
+          <h2 class="heading">
+            Reviews from our users from all over the world
+          </h2>
+          <p class="text">
+            These are the stories of our customers who have joined us with great
+            pleasure when using this crazy feature.
+          </p>
+        </div>
+        <div class="customer-list">
+          <div class="customer-item">
+            <div class="customer-top">
+              <div class="customer-info">
+                <div class="customer-avatar">
+                  <img srcset="./img/avatar.png 2x" alt="" />
+                </div>
+                <div class="customer-content">
+                  <h3 class="heading-small customer-name">Viezh Robert</h3>
+                  <span class="text-small customer-address"
+                    >Warsaw, Poland</span
+                  >
+                </div>
+              </div>
+              <div class="customer-rating">
+                <span>4.5</span>
+                <img src="./img/icon-star.svg" alt="" />
+              </div>
+            </div>
+            <div class="text customer-desc">
+              “Wow... I am very happy to use this website, it turned out to be more
+              than my expectations and so far there have been no problems.
+              VertexSystems is always the best”.
+            </div>
+          </div>
+          <div class="customer-item">
+            <div class="customer-top">
+              <div class="customer-info">
+                <div class="customer-avatar">
+                  <img srcset="./img/avatar.png 2x" alt="" />
+                </div>
+                <div class="customer-content">
+                  <h3 class="heading-small customer-name">Viezh Robert</h3>
+                  <span class="text-small customer-address"
+                    >Warsaw, Poland</span
+                  >
+                </div>
+              </div>
+              <div class="customer-rating">
+                <span>4.5</span>
+                <img src="./img/icon-star.svg" alt="" />
+              </div>
+            </div>
+            <div class="text customer-desc">
+              “Wow... I am very happy to use this website, it turned out to be more
+              than my expectations and so far there have been no problems.
+              VertexSystems is always the best”.
+            </div>
+          </div>
+          <div class="customer-item">
+            <div class="customer-top">
+              <div class="customer-info">
+                <div class="customer-avatar">
+                  <img srcset="./img/avatar.png 2x" alt="" />
+                </div>
+                <div class="customer-content">
+                  <h3 class="heading-small customer-name">Viezh Robert</h3>
+                  <span class="text-small customer-address"
+                    >Warsaw, Poland</span
+                  >
+                </div>
+              </div>
+              <div class="customer-rating">
+                <span>4.5</span>
+                <img src="./img/icon-star.svg" alt="" />
+              </div>
+            </div>
+            <div class="text customer-desc">
+              “Wow... I am very happy to use this website, it turned out to be more
+              than my expectations and so far there have been no problems.
+              VertexSystems is always the best”.
+            </div>
+          </div>
+          <div class="customer-item">
+            <div class="customer-top">
+              <div class="customer-info">
+                <div class="customer-avatar">
+                  <img srcset="./img/avatar.png 2x" alt="" />
+                </div>
+                <div class="customer-content">
+                  <h3 class="heading-small customer-name">Viezh Robert</h3>
+                  <span class="text-small customer-address"
+                    >Warsaw, Poland</span
+                  >
+                </div>
+              </div>
+              <div class="customer-rating">
+                <span>4.5</span>
+                <img src="./img/icon-star.svg" alt="" />
+              </div>
+            </div>
+            <div class="text customer-desc">
+              “Wow... I am very happy to use this website, it turned out to be more
+              than my expectations and so far there have been no problems.
+              VertexSystems is always the best”.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="fb-comments"
+      data-href="https://www.facebook.com/permalink.php?story_fbid=114311054504355&amp;id=114310537837740"
+      data-width="500px"
+      data-numposts="5"
+    ></div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-main">
+            <div class="footer-column">
+              <a href="index.html" class="footer-logo"
+                ><img src="./img/logo-footer.png" alt=""
+              /></a>
+              <div class="footer-desc text">
+                Vivamus dapibus et purus quis mollis. Mauris tempus tortor vel
+                mi eleifend laoreet. Nulla laoreet sapien erat.
+              </div>
+              <div class="social">
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-dribbble"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading">Usefull Links</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Terms of Services</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Plan & Precing</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Site Map</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading second-font">Contact Us</h3>
+              <ul class="footer-info">
+                <li>
+                  Phone Number 2:
+                  <span class="footer-highlight">( + 051 ) 958 23 78 51</span>
+                </li>
+                <li>
+                  Phone Number 2:
+                  <span class="footer-highlight">( + 051 ) 958 23 78 51</span>
+                </li>
+              </ul>
+              <ul class="footer-info">
+                <li>
+                  <a href="mailto:support@ocatavian.io"
+                    >Email: VertexSystems@gmail.com</a
+                  >
+                </li>
+                <li>Fax: VertexSystems@gmail.com</li>
+              </ul>
+              <ul class="footer-info">
+                <li>
+                  Address: Envato Pty Ltd 13/2 Permanent ST melbourne VLC 3000 -
+                  Australia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-container">
+          <a href="#" class="footer-rocket">
+            <i class="fa fa-rocket"></i>
+          </a>
+          <p>
+            Copyright © 2022 VertexSystems, Designed by
+            <a href="#">TexTheme</a> All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Animate -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Poper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slick -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <!-- BS4 -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fackebook comment -->
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0&appId=301467748637416&autoLogAppEvents=1"
+      nonce="ijVo9nXg"
+    ></script>
+    <!-- OWL JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".courses__carousel").owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+      $(".carousel-teams").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplayTimeOut: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          600: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: false,
+          },
+        },
+      });
+    </script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./js/app.js"></script>
+    <script src="./js/search.js"></script>
+  </body>
+</html>

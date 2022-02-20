@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="">
+  <title>Yearwiselisting</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    nav {
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <!-- <div class="navbar-bottom">
+    <div class="navbar-content">
+      <div class="navbar-logo">Vertex<span>Systems.</span></div>
+      <ul class="nav-menu">
+        <li class="active line"><a href="#">Home</a></li>
+        <li class="line">
+          <a href="#">List of virus</a>
+          <i class="fa fa-angle-down"></i>
+          <ul class="dropdown">
+            <li><a href="">SARS-CoV</a></li>
+            <li><a href="#">HIV</a></li>
+            <li><a href="#">Ebola</a></li>
+            <li><a href="#">Marburg</a></li>
+            <li><a href="#">Hanta</a></li>
+            <li><a href="#">SAR-COV-2</a></li>
+          </ul>
+        </li>
+        <li class="line"><a href="">YearWise Listing</a></li>
+        <li class="line"><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </div> -->
+  <!--TOP Introduction-->
+  <div>
+  <h2 align="center">Tables below show total cases and total deaths by year</h2>
+  <p align="center">(Weekly updated)</p>
+
+  <p align="center" id="demo"></p>
+  </div>
+
+  <!--SARS-CoV-2-->
+
+  <table class="table table-bordered table-striped" style="width:100%">
+    <tr>
+      <th rowspan="3">Year</th>
+      <th colspan="2">Virus</th>
+    </tr>
+    <tr>
+      <th colspan="2">SARS-CoV-2</th>
+    </tr>
+    <tr>
+      <th>Total Cases (Real Global Statistics)</th>
+      <th>Total Deaths (Real Global Statistics)</th>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>~134,030,196 cases (to be updated)</td>
+      <td>~233,655 deaths (to be updated)</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>287,607,885 cases</td>
+      <td>5,437,137 deaths</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>81,963,694 cases</td>
+      <td>1,916,081 deaths</td>
+    </tr>
+  </table>
+  <p>SARS-CoV-1</p>
+
+  <!--SARS-CoV-1-->
+
+  <table class="table table-bordered table-striped" style="width:100%">
+    <tr>
+      <th rowspan="3">Year</th>
+      <th colspan="2">Virus</th>
+    </tr>
+    <tr>
+      <th colspan="2">SARS-CoV-1</th>
+    </tr>
+    <tr>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+    </tr>
+    <tr>
+      <td>July 2003</td>
+      <td>~6937 cases</td>
+      <td>813 deaths</td>
+    </tr>
+    <tr>
+      <td>November 2002</td>
+      <td>~1500 cases</td>
+      <td>0 deaths</td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--EBOLA-->
+
+  <table class="table table-bordered table-striped" style="width:100%">
+    <tr>
+      <th rowspan="3">Year</th>
+      <th colspan="2">Virus</th>
+    </tr>
+    <tr>
+      <th colspan="2">Ebola</th>
+    </tr>
+    <tr>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+    </tr>
+    <tr>
+      <td>Oct–Dec 2021	</td>
+      <td>11 cases</td>
+      <td>9 deaths</td>
+    </tr>
+    <tr>
+      <td>Feb–Jun 2021	</td>
+      <td>35 cases</td>
+      <td>18 deaths</td>
+    </tr>
+    <tr>
+      <td>May 2020–Nov 2020	</td>
+      <td>130 cases</td>
+      <td>55 deaths</td>
+    </tr>
+    <tr>
+      <td>Aug 2018–Jun 2020	</td>
+      <td>3,470 cases</td>
+      <td>2,280 deaths</td>
+    </tr>
+    <tr>
+      <td>May–Jul 2018	</td>
+      <td>54 cases</td>
+      <td>33 deaths</td>
+    </tr>
+    <tr>
+      <td>Aug–Nov 2014	</td>
+      <td>66 cases</td>
+      <td>49 deaths</td>
+    </tr>
+    <tr>
+      <td>Dec 2013–Jan 2016	</td>
+      <td>28,616 cases</td>
+      <td>11,310 deaths</td>
+    </tr>
+    <tr>
+      <td>Jun–Nov 2012	</td>
+      <td>81 cases</td>
+      <td>46 deaths</td>
+    </tr>
+    <tr>
+      <td>Dec 2008–Feb 2009	</td>
+      <td>32 cases</td>
+      <td>14 deaths</td>
+    </tr>
+    <tr>
+      <td>Dec 2007–Jan 2008	</td>
+      <td>149 cases</td>
+      <td>37 deaths</td>
+    </tr>
+    <tr>
+      <td>Aug–Nov 2007	</td>
+      <td>264 cases</td>
+      <td>187 deaths</td>
+    </tr>
+    <tr>
+      <td>Apr-May 2005	</td>
+      <td>12 cases</td>
+      <td>10 deaths</td>
+    </tr>
+    <tr>
+      <td>Apr–Jun 2004	</td>
+      <td>17 cases</td>
+      <td>7 deaths</td>
+    </tr>
+    <tr>
+      <td>Nov–Dec 2003</td>
+      <td>35 cases</td>
+      <td>29 deaths</td>
+    </tr>
+    <tr>
+      <td>Dec 2002–Apr 2003	</td>
+      <td>143 cases</td>
+      <td>128 deaths</td>
+    </tr>
+    <tr>
+      <td>Oct 2001–Jul 2002	</td>
+      <td>124 cases</td>
+      <td>97 deaths</td>
+    </tr>
+    <tr>
+      <td>Oct 2000–Jan 2001	</td>
+      <td>425 cases</td>
+      <td>224 deaths</td>
+    </tr>
+    <tr>
+      <td>Jul 1996–Mar 1997	</td>
+      <td>60 cases</td>
+      <td>45 deaths</td>
+    </tr>
+    <tr>
+      <td>Jan–Apr 1996	</td>
+      <td>31 cases</td>
+      <td>21 deaths</td>
+    </tr>
+    <tr>
+      <td>May–Jul 1995	</td>
+      <td>315 cases</td>
+      <td>254 deaths</td>
+    </tr>
+    <tr>
+      <td>Dec 1994–Feb 1995	</td>
+      <td>52 cases</td>
+      <td>31 deaths</td>
+    </tr>
+    <tr>
+      <td>Aug–Sep 1979	</td>
+      <td>34 cases</td>
+      <td>22 deaths</td>
+    </tr>
+    <tr>
+      <td>Aug 1976	</td>
+      <td>318 cases</td>
+      <td>280 deaths</td>
+    </tr>
+    <tr>
+      <td>Jun–Nov 1976	</td>
+      <td>284 cases</td>
+      <td>151 deaths</td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--HIV-->
+
+  <table class="table table-bordered table-striped" style="width:100%">
+    <tr>
+      <th rowspan="3">Year</th>
+      <th colspan="2">Virus</th>
+    </tr>
+    <tr>
+      <th colspan="2">HIV</th>
+    </tr>
+    <tr>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>3,680,000(x10) cases</td>
+      <td>863,837 deaths</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>3,360,000(x10) cases</td>
+      <td>1,030,000 deaths</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>2,990,000(x10) cases</td>
+      <td>1,370,000 deaths</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>2,830,000(x10) cases</td>
+      <td>1,830,000 deaths</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>2,570,000(x10) cases</td>
+      <td>1,560,000 deaths</td>
+    </tr>
+    <tr>
+      <td>1995</td>
+      <td>1,760,000(x10) cases</td>
+      <td>939,400 deaths</td>
+    </tr>
+    <tr>
+      <td>1990</td>
+      <td>782,885(x10) cases</td>
+      <td>336,387 deaths</td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--HANTA-->
+
+  <table class="table table-bordered table-striped" style="width:100%">
+    <tr>
+      <th rowspan="3">Year</th>
+      <th colspan="2">Virus</th>
+    </tr>
+    <tr>
+      <th colspan="2">Hanta</th>
+    </tr>
+    <tr>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>20 cases</td>
+      <td>6 deaths</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>23 cases</td>
+      <td>5 deaths</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>36 cases</td>
+      <td>9 deaths</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>37 cases</td>
+      <td>13 deaths</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>22 cases</td>
+      <td>6 deaths</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>35 cases</td>
+      <td>14 deaths</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>21 cases</td>
+      <td>9 deaths</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>30 cases</td>
+      <td>12 deaths</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>24 cases</td>
+      <td>12 deaths</td>
+    </tr>
+    <tr>
+      <td>2010</td>
+      <td>20 cases</td>
+      <td>5 deaths</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>20 cases</td>
+      <td>5 deaths</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>24 cases</td>
+      <td>12 deaths</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>29 cases</td>
+      <td>12 deaths</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>41 cases</td>
+      <td>17 deaths</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>34 cases</td>
+      <td>10 deaths</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>27 cases</td>
+      <td>5 deaths</td>
+    </tr>
+    <tr>
+      <td>2003</td>
+      <td>31 cases</td>
+      <td>9 deaths</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>23 cases</td>
+      <td>10 deaths</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>11 cases</td>
+      <td>3 deaths</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>46 cases</td>
+      <td>11 deaths</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>43 cases</td>
+      <td>14 deaths</td>
+    </tr>
+    <tr>
+      <td>1998</td>
+      <td>33 cases</td>
+      <td>9 deaths</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>23 cases</td>
+      <td>5 deaths</td>
+    </tr>
+    <tr>
+      <td>1996</td>
+      <td>22 cases</td>
+      <td>7 deaths</td>
+    </tr>
+    <tr>
+      <td>1995</td>
+      <td>24 cases</td>
+      <td>10 deaths</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>32 cases</td>
+      <td>12 deaths</td>
+    </tr>
+    <tr>
+      <td>1993</td>
+      <td>48 cases</td>
+      <td>27 deaths</td>
+    </tr>
+  </table>
+  <p></p>
+
+  <!--MARBURG-->
+
+  <table class="table table-bordered table-striped" style="width:100%">
+    <tr>
+      <th rowspan="3">Year</th>
+      <th colspan="2">Virus</th>
+    </tr>
+    <tr>
+      <th colspan="2">Marburg</th>
+    </tr>
+    <tr>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>1 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>2012</td>
+      <td>15 cases</td>
+      <td>4 deaths</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>2 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>2007</td>
+      <td>4 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>2004-2005</td>
+      <td>252 cases</td>
+      <td>227 deaths</td>
+    </tr>
+    <tr>
+      <td>1998-2000</td>
+      <td>154 cases</td>
+      <td>128 deaths</td>
+    </tr>
+    <tr>
+      <td>1990</td>
+      <td>1 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>1987</td>
+      <td>1 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>1980</td>
+      <td>2 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>1975</td>
+      <td>3 cases</td>
+      <td>1 deaths</td>
+    </tr>
+    <tr>
+      <td>1967</td>
+      <td>31 cases</td>
+      <td>7 deaths</td>
+    </tr>
+  </table>
+  <p></p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-column">
+            <a href="index.html" class="footer-logo"
+              ><img src="./img/logo-footer.png" alt=""
+            /></a>
+            <div class="footer-desc text">
+              Vivamus dapibus et purus quis mollis. Mauris tempus tortor vel
+              mi eleifend laoreet. Nulla laoreet sapien erat.
+            </div>
+            <div class="social">
+              <a href="#" class="social-item">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#" class="social-item">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a href="#" class="social-item">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="#" class="social-item">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading">Usefull Links</h3>
+            <ul class="footer-links">
+              <li class="footer-item">
+                <a href="#" class="footer-link">About Us</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Contact us</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Terms of Services</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Plan & Precing</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Site Map</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="footer-heading second-font">Contact Us</h3>
+            <ul class="footer-info">
+              <li>
+                Phone Number 2:
+                <span class="footer-highlight">( + 051 ) 958 23 78 51</span>
+              </li>
+              <li>
+                Phone Number 2:
+                <span class="footer-highlight">( + 051 ) 958 23 78 51</span>
+              </li>
+            </ul>
+            <ul class="footer-info">
+              <li>
+                <a href="mailto:support@ocatavian.io"
+                  >Email: VertexSystems@gmail.com</a
+                >
+              </li>
+              <li>Fax: VertexSystems@gmail.com</li>
+            </ul>
+            <ul class="footer-info">
+              <li>
+                Address: Envato Pty Ltd 13/2 Permanent ST melbourne VLC 3000 -
+                Australia
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-container">
+        <a href="#" class="footer-rocket">
+          <i class="fa fa-rocket"></i>
+        </a>
+        <p>
+          Copyright © 2022 VertexSystems, Designed by
+          <a href="#">TexTheme</a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+
+<script>
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d;
+</script>
+</body>
+</html>
