@@ -11,7 +11,7 @@
 	3. Mai Thanh Phong 	(Student1345112)   	
 
 =======================================
-Documentations : https://github.com/L3nhan/doodle_group01/tree/main/Documentations
+Documentations : https://github.com/xuanloc2003/Group04_Viruses
 =======================================
 Published website : https://l3nhan.github.io/doodle_group01/
 =======================================
