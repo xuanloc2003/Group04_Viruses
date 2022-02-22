@@ -8,7 +8,7 @@
 	1. Nguyễn Xuân Lộc  	(Student1341546)
 	2. Phạm Tiến Hùng	(Student1341609)
 	3. Phạm Hải Đăng 	(Student1344667)	
-        4. Mai Thanh Phong  (Student1345112)
+                4. Mai Thanh Phong  (Student1345112)
 =======================================
 Documentations : https://github.com/L3nhan/doodle_group01/tree/main/Documentations
 =======================================
