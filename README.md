@@ -11,7 +11,7 @@
 	3. Mai Thanh Phong 	(Student1345112)   	
 
 =======================================
-Documentations : https://github.com/xuanloc2003/Group04_Viruses
+Documentations : https://github.com/xuanloc2003/Group04_Viruses/tree/main/Documentation
 =======================================
 Published website : https://xuanloc2003.github.io/Group04_Viruses/
 =======================================
