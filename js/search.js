@@ -19,10 +19,10 @@ const renderVirusSearch = () => {
     return item.title.toUpperCase().includes(inputValue.toUpperCase());
   });
   const arrHTML = arrNew.map((item) => {
-    return `<div class="form__item">
+    return `<a href=""><div class="form__item">
     <img src="${item.img}" alt="" class="form__item--img"></img>
     <h4 class="form__item--name">${item.title}</h4>
-    </div>`;
+    </div></a>` ;
   });
   document.querySelector(".form__result").style.display = "block";
   document.querySelector(".form__result").innerHTML = arrHTML.join("");
@@ -30,3 +30,4 @@ const renderVirusSearch = () => {
 button.addEventListener("click", renderVirusSearch);
 
 console.log(arrData);
+
