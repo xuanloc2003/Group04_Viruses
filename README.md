@@ -13,6 +13,6 @@
 =======================================
 Documentations : https://github.com/xuanloc2003/Group04_Viruses
 =======================================
-Published website : https://l3nhan.github.io/doodle_group01/
+Published website : https://xuanloc2003.github.io/Group04_Viruses/
 =======================================
 Thank you for visit our website.
